@@ -1,0 +1,29 @@
+Return-Path: <attacker@tor-exit-node.net>
+Delivered-To: target@myc0mpany.com
+Received: from tor-exit.example.org (unknown [198.51.100.55])
+        by mx.google.com with ESMTP id z89si12345678pll.45.2024.01.15.10.12.05
+        for <target@myc0mpany.com>;
+        Mon, 15 Jan 2026 10:12:05 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=fail (google.com: domain of attacker@tor-exit-node.net does not designate 198.51.100.55 as permitted sender) smtp.mailfrom=attacker@tor-exit-node.net
+Message-ID: <spear-phish-999@tor-exit-node.net>
+Date: Mon, 15 Jan 2026 18:11:00 +0000
+From: "IT Helpdesk" <admin@myc0mpany-it-support.com>
+To: target@myc0mpany.com
+Subject: MANDATORY: Office 365 Password Expiry Notice
+Content-Type: text/plain; charset="UTF-8"
+
+Hi,
+
+This is an automated notification from the IT Helpdesk.
+
+Your Office 365 corporate password is set to expire in exactly 2 hours.
+Due to the new cybersecurity policy, all employees must update their credentials today.
+
+If you do not update your password immediately, you will lose access to Outlook, Teams, and internal VPN services.
+
+Click here to keep your current password:
+https://login.microsoftonline.com.update-credentials-portal.net/auth
+
+Thank you,
+IT Department

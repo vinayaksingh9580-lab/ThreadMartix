@@ -1,0 +1,32 @@
+Return-Path: <scammer@sketchy-hosting.io>
+Delivered-To: victim@company.com
+Received: from mail.sketchy-hosting.io (mail.sketchy-hosting.io. [185.10.20.30])
+        by mx.google.com with ESMTPS id u21si7532349pgc.205.2023.10.23.08.31.22
+        for <victim@company.com>;
+        Mon, 23 Oct 2026 08:31:22 -0700 (PDT)
+Authentication-Results: mx.google.com;
+       dkim=fail header.i=@sketchy-hosting.io header.s=default header.b=XyZaBc;
+       spf=fail (google.com: domain of scammer@sketchy-hosting.io does not designate 185.10.20.30 as permitted sender) smtp.mailfrom=scammer@sketchy-hosting.io;
+       dmarc=fail (p=NONE sp=NONE dis=NONE) header.from=chase-bank-support.com
+Message-ID: <987654321@sketchy-hosting.io>
+Date: Mon, 23 Oct 2026 15:31:10 +0000
+From: "Chase Security" <support@chase-bank-support.com>
+Reply-To: "Security Team" <scammer-reply@sketchy-hosting.io>
+To: victim@company.com
+Subject: URGENT: Fraudulent Activity Detected on your Account
+Content-Type: text/plain; charset="UTF-8"
+
+Dear Customer,
+
+We have detected unusual login attempts on your Chase account from a foreign device.
+For your protection, we have temporarily restricted your outbound transfers.
+
+You MUST verify your identity within 24 hours to restore full access, or your account will be permanently locked.
+
+Please click the secure link below to verify your identity:
+http://verify-chase-update-account.com/login?token=8f9a2b
+
+Failure to complete this verification will result in account closure.
+
+Sincerely,
+Chase Fraud Prevention Team

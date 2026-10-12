@@ -1,0 +1,19 @@
+Return-Path: <ceo@myc0mpany.com>
+Received: from vps200.hosting.net (vps200.hosting.net. [45.55.66.77])
+        by mx.google.com with ESMTPS id bec111
+        for <finance@mycompany.com>;
+        Wed, 06 Sep 2026 14:00:00 -0700 (PDT)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of ceo@myc0mpany.com designates 45.55.66.77 as permitted sender) smtp.mailfrom=ceo@myc0mpany.com
+From: "John Doe (CEO)" <ceo@myc0mpany.com>
+To: "Finance Team" <finance@mycompany.com>
+Subject: Urgent wire transfer needed
+Message-ID: <bec222@myc0mpany.com>
+Date: Wed, 06 Sep 2026 13:59:00 -0700 (PDT)
+Content-Type: text/plain; charset="UTF-8"
+
+Hi,
+I'm in a meeting. Need you to process a wire transfer to our new vendor today.
+Please confirm when ready and I will send bank details.
+Regards,
+John

@@ -1,0 +1,25 @@
+Return-Path: <newsletter@github.com>
+Received: from mail.github.com (mail.github.com. [192.30.252.1])
+        by mx.google.com with ESMTPS id xyz123
+        for <student@gmail.com>;
+        Wed, 06 Sep 2026 10:00:00 -0700 (PDT)
+Received: from internal.github.com (internal.github.com [10.0.0.1])
+        by mail.github.com (Postfix) with ESMTP id abc456
+        for <student@gmail.com>; Wed, 06 Sep 2026 09:59:58 -0700 (PDT)
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@github.com header.s=2024 header.b=abCD;
+       spf=pass (google.com: domain of newsletter@github.com designates 192.30.252.1 as permitted sender) smtp.mailfrom=newsletter@github.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=github.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com; s=2024; t=1725620000; bh=abc...; h=Date:From:To:Subject:Message-ID; b=xyz...
+Received-SPF: pass (google.com: domain of newsletter@github.com designates 192.30.252.1 as permitted sender)
+From: "GitHub" <newsletter@github.com>
+To: "Student" <student@gmail.com>
+Subject: Your GitHub Actions Run Failed
+Message-ID: <1234567890@github.com>
+Date: Wed, 06 Sep 2026 09:59:58 -0700 (PDT)
+Content-Type: text/plain; charset="UTF-8"
+
+Hi there,
+Your recent workflow run failed. Please check the logs.
+Thanks,
+GitHub
